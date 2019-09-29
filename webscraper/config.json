@@ -1,0 +1,43 @@
+{
+  "database": [
+    {
+      "host": "localhost"
+    },
+    {
+      "user": "root"
+    },
+    {
+      "password": ""
+    },
+    {
+      "database": "price-detector-database"
+    }
+  ],
+  "scraper": [
+    {
+      "start": "02:35:51:195185",
+      "frequency": "1"
+    },
+    {
+      "stores": [
+        {
+          "x-kom": [
+            {
+              "name": "x-kom"
+            },
+            {
+              "data": "name",
+              "selector": "h1",
+              "class": "wu42cx-10 eenxIx sc-87ubip-0 kaOsdS"
+            },
+            {
+              "data": "price",
+              "selector": "div",
+              "class": "y67i6l-4 cgNVal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
